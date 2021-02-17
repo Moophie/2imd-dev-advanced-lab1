@@ -3,5 +3,22 @@
     text-align: center;
 }
 img{
-    width: 100px;
+    width: 200px;
+}
+.about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "michael glenn reno";
+}
+.michael{
+    grid-area: michael;
+}
+.glenn{
+    grid-area: glenn;
+}
+.reno{
+    grid-area: reno;
 }
