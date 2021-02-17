@@ -1,9 +1,11 @@
 *{
     background-color: grey;
     text-align: center;
+    font-family: sans-serif;
 }
 img{
     width: 200px;
+    height: 200px;
 }
 .about-us{
     display: grid;
@@ -21,4 +23,19 @@ img{
 }
 .reno{
     grid-area: reno;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+#home{
+    
+    margin-right: 30px;
+}
+#header-text{
+    padding-top: 50px;
+}
+#verdict{
+    font-size:50px;
 }
